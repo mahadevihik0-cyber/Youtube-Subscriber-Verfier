@@ -35,11 +35,11 @@ The **YouTube Subscriber Verifier** is a Discord bot designed to verify if users
 3. Create a `config.js` file in the root directory with the following content:
     ```js
     module.exports = {
-        token: "YOUR_BOT_TOKEN_HERE", // Add your bot's token here
-        channel_name: "@devuuuu_xd", // Specify your YouTube channel's name here
-        role_id: "YOUR_ROLE_ID_HERE", // ID of the role to be given
+        token: "MTQzOTk0MDUwNTc4MDYyMTQyNA.GQkYOZ.j9GMcN0L-B4bxA6G_cBcfkpRsrw3jX-ieQ2Mn0", // Add your bot's token here
+        channel_name: "@ghost.90357", // Specify your YouTube channel's name here
+        role_id: "1242101353552023592", // ID of the role to be given
         keywords: "SUBSCRIBED", // Specify the keywords for analyzing the image
-        save_data: "false" // Set to "true" to save data in subscriber.json, "false" otherwise
+        save_data: "true" // Set to "true" to save data in subscriber.json, "false" otherwise
     };
     ```
 4. Run the bot:
